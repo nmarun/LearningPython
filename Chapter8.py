@@ -33,3 +33,9 @@ values = ["a", "b", "c", "d"];
 #zip function: combine separate lists of keys and values obtained dynamically at runtime
 zipped = zip(keys, values);
 dict(zipped);
+
+# does not enforce unique-key constraint; retains the latest one
+dictionary = {'spam': 2, 'spam': 1, 'spam': 3};
+dictionary;
+if dictionary.get("ham") == None:
+    print("not found")
