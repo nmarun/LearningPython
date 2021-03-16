@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Chapter9.py" />
     <Compile Include="Chapter8.py" />
     <Compile Include="Chapter7.py" />
     <Compile Include="Chapter5.py" />
