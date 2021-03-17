@@ -41,3 +41,17 @@ S1 == S2, S1 is S2; # shows (True, False)
 S1 = "alongerstring";
 S2 = "alongerstring";
 S1 == S2, S1 is S2; # shows (True, True)
+
+# shared references point to the same memory location
+L = [1, 2, 3]
+M = ['X', L, 'Y'] # Embed a reference to L
+M
+L[1] = 0 # Changes M too
+M # shows ['X', [1, 0, 3], 'Y']
+
+
+L = [1, 2, 3]
+M = ['X', L[:], 'Y'] # Embed a copy of L (or list(L), or L.copy())
+L[1] = 0 # Changes only L, not M
+L
+M
