@@ -22,11 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Chapter9.py" />
-    <Compile Include="Chapter8.py" />
-    <Compile Include="Chapter7.py" />
-    <Compile Include="Chapter5.py" />
-    <Compile Include="Chapter4.py" />
+    <Compile Include="11Assignments.py" />
+    <Compile Include="10Statements.py" />
+    <Compile Include="09TuplesFiles.py" />
+    <Compile Include="08ListDictionary.py" />
+    <Compile Include="07Strings.py" />
+    <Compile Include="05NumericTypes.py" />
+    <Compile Include="04ObjectTypes.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

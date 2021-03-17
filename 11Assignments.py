@@ -16,3 +16,8 @@ a, b, c, d = 'spam' # Sequence assignment, generalized
 a, b, c, d # shows ('s', 'p', 'a', 'm')
 e, *f = 'spam' # Extended sequence unpacking
 e, f # shows ('s', ['p', 'a', 'm'])
+
+nudge = 1
+wink = 2
+nudge, wink = wink, nudge # Tuples: swaps values
+nudge, wink # Like T = nudge; nudge = wink; wink = T
