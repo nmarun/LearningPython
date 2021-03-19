@@ -22,6 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="13Loops.py" />
+    <Compile Include="12IfCondition.py" />
     <Compile Include="11Assignments.py" />
     <Compile Include="10Statements.py" />
     <Compile Include="09TuplesFiles.py" />
