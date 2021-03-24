@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="16FunctionBasics.py" />
     <Compile Include="15Documentation.py" />
     <Compile Include="14Iterations.py" />
     <Compile Include="13Loops.py" />
