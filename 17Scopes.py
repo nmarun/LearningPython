@@ -26,3 +26,11 @@ def f1():
         return f2 # Return f2 but don't call it
 action = f1() # Make, return function
 action() # Call it now: prints 88
+
+# Enclosing scopes are often employed by the lambda function-creation expressions
+def maker(N):
+    N+=1
+    return lambda X: X ** N # lambda functions retain state too
+
+h = maker(3)
+h(2) # 4 ** 4, not 4 ** 3 because of the N+=1 
