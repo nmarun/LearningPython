@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="20ComprehensionsGenerations.py" />
     <Compile Include="19AdvancedFunctionTopics.py" />
     <Compile Include="18Arguments.py" />
     <Compile Include="17Scopes.py" />
