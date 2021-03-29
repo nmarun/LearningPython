@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Module2.py" />
+    <Compile Include="Module1.py" />
+    <Compile Include="23ModulesCoding.py" />
     <Compile Include="22Modules.py" />
     <Compile Include="21Benchmarking.py" />
     <Compile Include="20ComprehensionsGenerations.py" />
