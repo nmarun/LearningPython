@@ -22,7 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="25ModuleAdvanced.py" />
     <Compile Include="24ModulePackages.py" />
+    <Compile Include="dir1\Module3.py" />
     <Compile Include="Module2.py" />
     <Compile Include="Module1.py" />
     <Compile Include="23ModulesCoding.py" />
@@ -44,6 +46,9 @@
     <Compile Include="07Strings.py" />
     <Compile Include="05NumericTypes.py" />
     <Compile Include="04ObjectTypes.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dir1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
