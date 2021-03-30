@@ -8,3 +8,5 @@ def printer(text):
 def printer2(text):
     print("from module 1")
     print(text)
+
+import Module2

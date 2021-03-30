@@ -22,6 +22,26 @@ from Module1 import printer
 from Module2 import printer # overwrites the one fetched from Module1
 printer("some text") # calls Module2.printer()
 
+import Module2
+list(Module2.__dict__.keys())
+Module2.__dict__.get('__name__')
+
+list(name for name in Module2.__dict__.keys() if not name.startswith('__')) 
+# uses list comprehension
+# shows ['printer', 'printer2']
+list(name for name in Module2.__dict__ if not name.startswith('__')) 
+# uses generator 
+# shows ['printer', 'printer2']
+
+# module nesting
+import Module1
+Module1.Module2.printer("module nesting")
+type(Module1.Module2) # shows <class 'module'>
+
 import imp
 imp.reload(Module1)
 imp.reload(Module2)
+
+imp.reload(Module2)
+from Module2 import printer3
+printer3() # still refers to the previous version of printer3() and is not affected by the reload

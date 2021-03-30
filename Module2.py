@@ -8,3 +8,5 @@ def printer(text):
 def printer2(text):
     print("from module 2")
     print(text)
+
+print("end m2")
