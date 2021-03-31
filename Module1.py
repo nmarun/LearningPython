@@ -1,4 +1,4 @@
-# Used in 23ModulesCoding.py
+# Used in 23ModulesCoding.py and 25ModuleAdvanced.py
 
 print("m1")
 def printer(text):
@@ -9,4 +9,4 @@ def printer2(text):
     print("from module 1")
     print(text)
 
-import Module2
+_name = "Arun"
