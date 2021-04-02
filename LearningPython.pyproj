@@ -22,6 +22,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="32AdvancedClassTopics.py" />
+    <Compile Include="31DesigningWithClasses.py" />
     <Compile Include="27ClassCoding.py" />
     <Compile Include="25ModuleAdvanced.py" />
     <Compile Include="24ModulePackages.py" />
