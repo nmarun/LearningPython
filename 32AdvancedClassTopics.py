@@ -40,6 +40,9 @@ class Spam:
     def __init__(self):
         self.count() # Passes self.__class__ to count
     count = classmethod(count)
+    def printCount(self):
+        print(self.numInstances)
+    printCount = staticmethod(printCount)
 
 class Sub(Spam):
     numInstances = 0
