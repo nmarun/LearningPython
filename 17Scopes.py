@@ -23,9 +23,21 @@ def f1():
     X = 88
     def f2():
         print(X) # Remembers X in enclosing def scope
-        return f2 # Return f2 but don't call it
+    return f2 # Return f2 but don't call it
 action = f1() # Make, return function
 action() # Call it now: prints 88
+
+def exp(power):
+    power +=1
+    def raisedTo(n):
+        return n**power
+    return raisedTo
+
+square = exp(1)
+cube = exp(2)
+
+square(4)
+cube(4)
 
 # Enclosing scopes are often employed by the lambda function-creation expressions
 def maker(N):
