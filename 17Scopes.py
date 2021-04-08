@@ -29,9 +29,9 @@ action() # Call it now: prints 88
 
 def exp(power):
     power +=1
-    def raisedTo(n):
+    def setBase(n):
         return n**power
-    return raisedTo
+    return setBase
 
 square = exp(1)
 cube = exp(2)
